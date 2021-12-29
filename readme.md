@@ -1,4 +1,4 @@
-# ESocial Media
+# Social Media
 
 ## Description
 Allows the user to create a user, add thoughts to that user, add reactions to that thought and also add friends to their given user.

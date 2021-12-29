@@ -10,11 +10,7 @@ module.exports = {
     findOneThought: ({params}, res) => {
         Thought.findOne({_id: params.id})
           .populate({
-              path: 'thoughts',
-              select: '-__v'
-          })
-          .populate({
-              path: 'friends',
+              path: 'reactions',
               select: '-__v'
           })
           .select('__v')
